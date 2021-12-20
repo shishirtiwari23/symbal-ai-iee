@@ -1,0 +1,7 @@
+@import "../../utils//common.scss";
+
+.container {
+  @extend .flexCol;
+  width: fit-content;
+  margin: auto;
+}
