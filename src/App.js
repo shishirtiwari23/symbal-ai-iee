@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/symbl-ai-iee">
       <Routes>
         <Route path="/" exact element={<Home />} />
       </Routes>
